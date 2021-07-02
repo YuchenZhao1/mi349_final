@@ -1,0 +1,79 @@
+img{
+    width: 650px;
+}
+
+html{
+    background:rgb(30, 57, 214);
+}
+
+body{
+    background-color: #f3efe9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 50px;
+    padding: 50px;
+    border-top: 30px solid gray;
+    border-bottom: 30px solid gray;
+    font-size: medium;
+}
+
+.blog-1{
+    display: flex;
+    background: rgba(231, 211, 231, 0.911);
+}
+.info{
+    background: rgb(233, 188, 233);
+    padding: 20px;
+    margin: 20px;
+}
+
+.info:nth-of-type(1){
+    flex:2;
+  }
+  
+  .info:nth-of-type(2){
+    flex:2;
+  }
+  
+  .info:nth-of-type(3){
+  flex:2;
+  }
+
+  .sticky{
+    background: greenyellow;
+    position: sticky;
+    top: 0;
+  }
+
+  h1{
+      font-size: 4em;
+      margin: 0;
+  }
+  #blog h2{
+      background: greenyellow;
+      font-size: 2em;
+
+  }
+
+  p {
+    line-height: 1.4em;
+   }
+   #blog{
+    border-top: 3px dotted #ccc;
+  }
+  .daily{
+    border-top: 3px dotted #ccc;
+  }
+  .hobby{
+    border-top: 3px dotted #ccc;
+  }
+  .story{
+    border-top: 3px dotted #ccc;
+  }
+
+  .img-container{
+    background:  greenyellow;
+    height: 30px;
+    width: 30px;
+   float: left;
+   margin-right: 10px;
+  }
